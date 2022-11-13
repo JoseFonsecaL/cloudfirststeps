@@ -30,4 +30,9 @@ public class CalificacionController {
     public ResponseEntity<?> list(){
         return ResponseEntity.ok(calificacionRepository.findAll());
     }
+
+    @GetMapping("codigo/{code}")
+    public ResponseEntity<?> withCode(@PathVariable String code){
+        return ResponseEntity.ok(calificacionRepository.findCalificacionDtoListByCodigo(code));
+    }
 }

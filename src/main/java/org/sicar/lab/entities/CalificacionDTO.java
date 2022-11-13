@@ -2,7 +2,6 @@ package org.sicar.lab.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import java.util.UUID;
 
 @Entity(name = "calificacion")
 public class CalificacionDTO {
