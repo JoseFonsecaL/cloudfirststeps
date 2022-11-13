@@ -1,1 +1,2 @@
-# Download this repo before to start.
+# Lea cuidadosamente las instrucciones antes de empezar
+1. 
